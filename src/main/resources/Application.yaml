@@ -1,0 +1,8 @@
+custom:
+  yaml:
+    message: Hi Ghost , this is dark knight
+
+config:
+  yaml:
+    firstname: Summer
+    lastname:  Ghost
