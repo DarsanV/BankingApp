@@ -13,14 +13,14 @@ pipeline {
 
         stage('Package') {
             steps {
-                echo '📦 Packaging the app...'
+                echo ' Packaging the app...'
                 sh './mvnw clean package -DskipTests'
             }
         }
 
         stage('Deploy') {
             steps {
-                echo '🚀 Deploying application...'
+                echo ' Deploying application...'
                
             }
         }
